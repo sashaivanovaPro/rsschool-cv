@@ -45,8 +45,11 @@ Specialization: anesthesiology and critical care (2006); nephrology (2021).
 **2006-2013** Anesthesiologist and critical care physician
 
 ## Foreign languages:
-**English** – Intermediate. Epam English test result: B1, 2022.
-efset.org/cert/wavEMQ B2 UPPER INTERMEDIATE
+**English** – Intermediate. 
+
+Epam English test result: B1, 2022.
+
+[EF SET B2 UPPER INTERMEDIATE](efset.org/cert/wavEMQ)
 
 **French** – DELF В1, 2014. 
 
