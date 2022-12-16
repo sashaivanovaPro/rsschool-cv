@@ -46,7 +46,7 @@ Have chosen Front-End and ready to develop in this direction.
 **2013-2020** Freelance photographer
 **2006-2013** Anesthesiologist and critical care physician
 
-## Foreign languages:
+## Foreign languages
 
 **English** – Intermediate.
 Epam English test result: B1, 2022.
