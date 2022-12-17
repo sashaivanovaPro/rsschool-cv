@@ -1,0 +1,10 @@
+nav {
+    background-color:hsl(0,0,20);
+    height: 30px;
+}
+ul.line li {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px;
+    color: white;
+}
