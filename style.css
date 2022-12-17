@@ -13,7 +13,7 @@ a {
     color: white;
 }
 
-header {
-    font-family: Merryweather, serif;
+header, h2 {
+    font-family: 'Merriweather', serif;
     font-size: normal;
 }
