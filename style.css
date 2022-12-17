@@ -13,7 +13,10 @@ a {
     color: white;
 }
 
-header, h2 {
+header, h2, h1 {
     font-family: 'Merriweather', serif;
     font-size: normal;
+}
+.contacts {
+    font-family: 'Montserrat', sans-serif;
 }
