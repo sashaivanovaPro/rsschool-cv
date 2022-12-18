@@ -37,14 +37,23 @@ img {
     margin-left: 10px;
     height: 180px;
     width: auto;
-
 }
 
 .contacts {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    list-style-type: none;
+    line-height: 18pt;
 }
 
 .blocks {
     display: inline-flex;
+}
+
+.maininfo {
+    margin-left: 20px;
+}
+
+h1 {
+    margin-left: 40px;
 }
