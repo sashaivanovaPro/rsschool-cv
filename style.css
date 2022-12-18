@@ -45,6 +45,13 @@ img {
     line-height: 18pt;
 }
 
+.intro {
+    margin-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+}
+
 .blocks {
     display: inline-flex;
 }
@@ -87,6 +94,8 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 18pt;
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
 .extra {
