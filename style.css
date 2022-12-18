@@ -1,5 +1,5 @@
 nav {
-    background-color: hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 15%);
     height: 50px;
     width: 100vw;
     padding-top: 0px;
@@ -24,8 +24,21 @@ h1 {
     font-size: normal;
 }
 
-.avatar {
-    padding-top: 10 px;
+figure {
+    margin: 0px;
+    padding: 0px;
+    height: 200px;
+    background-color: hsl(0, 0%, 80%);
+}
+
+img {
+    display: inline-block;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-left: 10px;
+    height: 180px;
+    width: auto;
+
 }
 
 .contacts {
