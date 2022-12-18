@@ -29,7 +29,7 @@ figure {
     background-color: hsl(0, 0%, 90%);
 }
 
-img {
+.avatar {
     display: inline-block;
     padding-top: 0px;
     margin-top: 10px;
@@ -88,12 +88,14 @@ h2 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 18pt;
+    margin-left: 18px;
 }
 
 .education {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 18pt;
+    margin-left: 18px;
 }
 
 .work {
@@ -118,7 +120,12 @@ h2 {
 
 footer {
     background-color: hsl(0, 0%, 10%);
-    height: 250px;
-    padding-top: 0px;
-    margin: 0pt;
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.logo {
+    height: 60px;
 }
