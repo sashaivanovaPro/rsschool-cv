@@ -57,8 +57,40 @@ h1 {
     margin-left: 40px;
 }
 
-.skills {
+.mainskills {
     list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+}
+
+.softskills {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+}
+
+.education {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+}
+
+.work {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+    list-style-type: none;
+}
+
+.foreign {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+}
+
+.extra {
+    margin-left: 40px;
 }
 
 h2 {
