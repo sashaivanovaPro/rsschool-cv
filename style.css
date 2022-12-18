@@ -1,5 +1,5 @@
 nav {
-    background-color: hsl(0, 0%, 15%);
+    background-color: hsl(0, 0%, 10%);
     height: 50px;
     padding-top: 0px;
     margin: 0pt;
@@ -17,7 +17,6 @@ a {
 }
 
 header,
-h2,
 h1 {
     font-family: 'Merriweather', serif;
     font-size: normal;
@@ -27,14 +26,14 @@ figure {
     margin: 0px;
     padding: 0px;
     height: 200px;
-    background-color: hsl(0, 0%, 80%);
+    background-color: hsl(0, 0%, 95%);
 }
 
 img {
     display: inline-block;
     padding-top: 0px;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 40px;
     height: 180px;
     width: auto;
 }
@@ -56,4 +55,21 @@ img {
 
 h1 {
     margin-left: 40px;
+}
+
+.skills {
+    list-style-type: none;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    background-color: hsl(0, 0%, 80%);
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
 }
