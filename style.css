@@ -1,7 +1,11 @@
 nav {
-    background-color:hsl(0, 0%, 20%);
+    background-color: hsl(0, 0%, 20%);
     height: 50px;
+    width: 100vw;
+    padding-top: 0px;
+    margin: 0pt;
 }
+
 ul.line li {
     display: inline-block;
     margin-right: 55px;
@@ -13,10 +17,18 @@ a {
     color: white;
 }
 
-header, h2, h1 {
+header,
+h2,
+h1 {
     font-family: 'Merriweather', serif;
     font-size: normal;
 }
+
+.avatar {
+    padding-top: 10 px;
+}
+
 .contacts {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
