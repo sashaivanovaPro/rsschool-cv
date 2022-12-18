@@ -64,6 +64,19 @@ h1 {
     margin-left: 40px;
 }
 
+h2 {
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    background-color: hsl(0, 0%, 80%);
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+    padding: 10px;
+    padding-left: 40px;
+}
+
 .mainskills {
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
@@ -95,22 +108,17 @@ h1 {
     font-weight: 400;
     line-height: 18pt;
     padding: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
 }
 
 .extra {
     margin-left: 40px;
+    margin-top: 16px;
 }
 
-h2 {
-    font-family: 'Merriweather', serif;
-    font-weight: 100;
-    background-color: hsl(0, 0%, 80%);
-    height: 30px;
-    padding: 0px;
-    margin: 0px;
-    display: inline-block;
-    width: 100%;
-    padding: 10px;
-    padding-left: 40px;
+footer {
+    background-color: hsl(0, 0%, 10%);
+    height: 250px;
+    padding-top: 0px;
+    margin: 0pt;
 }
