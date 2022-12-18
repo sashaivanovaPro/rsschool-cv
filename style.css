@@ -118,14 +118,31 @@ h2 {
     margin-top: 16px;
 }
 
-footer {
-    background-color: hsl(0, 0%, 10%);
-    height: 100px;
-    width: 100%;
-    display: inline-block;
-    margin-top: 20px;
+.links {
+    display: flex;
+    background-color: hsl(0, 0%, 60%);
+    height: 50px;
+}
+
+.copyright {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+    color: white;
+    margin-top: 16px;
+}
+
+.github {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+    color: white;
+    margin-top: 16px;
 }
 
 .logo {
-    height: 60px;
+    height: 30px;
+    margin: 0pt;
+    padding: 0px;
+    margin-top: 16px;
 }
