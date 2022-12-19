@@ -98,11 +98,39 @@ h2 {
     margin-left: 18px;
 }
 
+.it {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+    margin-left: 40px;
+    text-transform: uppercase;
+}
+
 .work {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 18pt;
     list-style-type: none;
+}
+
+.prod {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 18pt;
+    list-style-type: none;
+}
+
+.pro {
+    color: black;
+}
+
+.code_sample {
+    margin-left: 0pt;
+    padding-left: 0px;
+    background-color: hsl(0, 0%, 40%);
+    color: white;
+    display: block;
+    width: 30vw;
 }
 
 .foreign {
@@ -122,6 +150,7 @@ h2 {
     display: flex;
     background-color: hsl(0, 0%, 40%);
     height: 50px;
+    margin-top: 16px;
 }
 
 .copyright {
