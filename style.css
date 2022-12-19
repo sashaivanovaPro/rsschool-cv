@@ -125,12 +125,12 @@ h2 {
 }
 
 .code_sample {
-    margin-left: 0pt;
+    margin-left: 35pt;
     padding-left: 0px;
     background-color: hsl(0, 0%, 40%);
     color: white;
     display: block;
-    width: 30vw;
+    width: 25vw;
 }
 
 .foreign {
