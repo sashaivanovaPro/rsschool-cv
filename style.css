@@ -34,16 +34,15 @@
     text-decoration: none;
 }
 
-.maininfo__name {
-    font-family: 'Merriweather', serif;
-    font-size: normal;
-}
-
 .figure {
     margin: 0px;
     padding: 0px;
     height: 200px;
     background-color: hsl(0, 0%, 90%);
+}
+
+.blocks {
+    display: inline-flex;
 }
 
 .avatar {
@@ -53,7 +52,20 @@
     margin-left: 40px;
     height: 180px;
     width: auto;
-    border-radius: 100px;
+    border-radius: 90px;
+}
+
+.maininfo__name {
+    font-family: 'Merriweather', serif;
+    font-size: normal;
+    margin-left: 40px;
+}
+
+.maininfo {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+
 }
 
 .maininfo__contacts {
@@ -70,19 +82,7 @@
     line-height: 18pt;
 }
 
-.blocks {
-    display: inline-flex;
-}
-
-.maininfo {
-    display: inline-block;
-    position: relative;
-    margin-left: 20px;
-}
-
-h1 {
-    margin-left: 40px;
-}
+    {}
 
 h2 {
     font-family: 'Merriweather', serif;
