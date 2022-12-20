@@ -2,14 +2,27 @@
     box-sizing: border-box;
 }
 
-nav {
-    background-color: hsl(0, 0%, 10%);
-    height: 50px;
-    padding-top: 0px;
-    margin: 0pt;
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
-ul.line li {
+.header {
+    font-family: 'Merriweather', serif;
+    font-size: 400;
+}
+
+.menu {
+    display: flex;
+    background-color: hsl(0, 0%, 10%);
+    height: 50px;
+    width: 100%;
+}
+
+.menu__list {
     display: inline-block;
     margin-right: 55px;
     padding: 15px;
@@ -20,13 +33,12 @@ a {
     color: white;
 }
 
-header,
 h1 {
     font-family: 'Merriweather', serif;
     font-size: normal;
 }
 
-figure {
+.figure {
     margin: 0px;
     padding: 0px;
     height: 200px;
