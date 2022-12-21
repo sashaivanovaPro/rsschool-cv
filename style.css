@@ -17,6 +17,7 @@
 .header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    font-size: 18px;
 }
 
 .menu {
@@ -77,8 +78,9 @@
 .maininfo__contacts {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    font-size: larger;
     list-style-type: none;
-    line-height: 18pt;
+    line-height: 20pt;
 }
 
 .intro {
