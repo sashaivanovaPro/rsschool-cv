@@ -10,15 +10,19 @@
     height: 100vh;
 }
 
+.body {
+    margin: 0;
+}
+
 .header {
     font-family: 'Merriweather', serif;
     font-size: 400;
 }
 
 .menu {
-    background-color: hsl(0, 0%, 10%);
     height: 50px;
     width: 100%;
+    border-bottom: 2px solid black;
 }
 
 .menu__list {
@@ -26,19 +30,21 @@
     justify-content: space-around;
     padding: 15px;
     list-style-type: none;
+    margin: 0;
 }
 
 .menu__list--item {
     position: relative;
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .figure {
     margin: 0px;
     padding: 0px;
-    height: 200px;
+    height: 230px;
     background-color: hsl(0, 0%, 90%);
+    padding-top: 15px;
 }
 
 .blocks {
@@ -55,17 +61,16 @@
     border-radius: 90px;
 }
 
-.maininfo__name {
-    font-family: 'Merriweather', serif;
-    font-size: normal;
-    margin-left: 40px;
-}
-
 .maininfo {
     display: inline-block;
     position: relative;
     margin-left: 20px;
+}
 
+.maininfo__name {
+    font-family: 'Merriweather', serif;
+    font-size: normal;
+    margin-left: 40px;
 }
 
 .maininfo__contacts {
