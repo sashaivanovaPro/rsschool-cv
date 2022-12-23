@@ -65,7 +65,7 @@
 .maininfo {
     display: inline-block;
     position: relative;
-    margin-left: 20px;
+    margin-left: 120px;
 }
 
 .maininfo__name {
@@ -81,6 +81,10 @@
     font-size: larger;
     list-style-type: none;
     line-height: 20pt;
+}
+
+.center {
+    display: flex;
 }
 
 .about-me__intro {
@@ -100,8 +104,9 @@
 .sub-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0px;
+    margin-top: 20px;
     width: 100%;
     height: 50px;
     padding-top: 15px;
@@ -112,6 +117,7 @@
 
 .aside__style {
     margin-left: 40px;
+    margin-top: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: larger;
@@ -121,6 +127,7 @@
 
 .aside__style--ul {
     margin-left: 0;
+    margin-top: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: larger;
