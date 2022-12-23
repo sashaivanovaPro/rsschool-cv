@@ -94,6 +94,7 @@
 .aside {
     width: 20%;
     display: block;
+    margin-top: 20px;
 }
 
 .sub-header {
