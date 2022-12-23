@@ -94,7 +94,6 @@
 .aside {
     width: 20%;
     display: block;
-
 }
 
 .sub-header {
@@ -108,6 +107,24 @@
     padding-left: 40px;
     text-transform: uppercase;
     border-bottom: 1px solid black;
+}
+
+.aside__style {
+    margin-left: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 18pt;
+    width: 85%;
+}
+
+.aside__style--ul {
+    margin-left: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 18pt;
+    width: 85%;
 }
 
 .mainskills {
