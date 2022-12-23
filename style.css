@@ -137,7 +137,7 @@
 }
 
 .right {
-    margin-right: 0;
+    margin: 0;
     padding: 0;
     padding-left: 60px;
     margin-left: 100px;
@@ -217,33 +217,46 @@
 
 .links {
     display: flex;
+    justify-content: space-between;
     background-color: hsl(0, 0%, 90%);
-    height: 50px;
+    height: 70px;
+    margin: 0;
     margin-top: 16px;
+    padding: 20px;
+}
+
+.wrap {
+    display: flex;
 }
 
 .copyright {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
-    color: white;
-    margin-top: 16px;
-    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    color: black;
+    margin: 0;
+}
+
+.links__item {
+    position: relative;
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    color: black;
 }
 
 .github {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
-    color: white;
-    margin-top: 16px;
-    margin-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    color: black;
 }
 
 .logo {
+    justify-content: flex-end;
     height: 30px;
     margin: 0pt;
     padding: 0px;
-    margin-top: 10px;
-    margin-left: 15px;
 }
