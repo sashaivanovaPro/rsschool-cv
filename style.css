@@ -83,25 +83,27 @@
     line-height: 20pt;
 }
 
-.intro {
+.about-me__intro {
     margin-left: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
     line-height: 18pt;
 }
 
-    {}
+.about-me {}
 
-h2 {
-    font-family: 'Merriweather', serif;
-    font-weight: 100;
-    background-color: hsl(0, 0%, 80%);
+.sub-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
     height: 50px;
     margin: 0px;
-    display: inline-block;
-    width: 100%;
-    padding: 10px;
+    width: 20%;
+    padding-top: 15px;
     padding-left: 40px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
 }
 
 .mainskills {
