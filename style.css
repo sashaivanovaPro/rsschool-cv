@@ -85,6 +85,7 @@
 
 .center {
     display: flex;
+    margin: 0;
 }
 
 .about-me__intro {
@@ -121,7 +122,7 @@
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: larger;
-    line-height: 18pt;
+    line-height: 20pt;
     width: 85%;
 }
 
@@ -131,82 +132,92 @@
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: larger;
-    line-height: 18pt;
+    line-height: 20pt;
     width: 85%;
 }
 
-.mainskills {
-    list-style-type: none;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
+.right {
+    margin-right: 0;
+    padding: 0;
+    padding-left: 60px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+    width: 60%;
+    border-left: 1px solid black;
+}
+
+.sub-header__right {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    text-transform: uppercase;
 }
 
 .softskills {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 18pt;
-    margin-left: 18px;
 }
 
-.education {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
-    margin-left: 18px;
+.education,
+.it,
+.work {
+    margin-left: 0;
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 20pt;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.soft-skils {
+    margin-left: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 20pt;
+    padding-left: 20px;
 }
 
 .it {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
-    margin-left: 40px;
     text-transform: uppercase;
-}
-
-.work {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
-    list-style-type: none;
-}
-
-.prod {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
-    list-style-type: none;
-}
-
-.pro {
-    color: black;
+    margin-left: 0px;
 }
 
 .code_sample {
-    margin-left: 35pt;
+    margin-left: 0pt;
     padding-left: 0px;
-    background-color: hsl(0, 0%, 40%);
+    background-color: hsl(0, 0%, 50%);
     color: white;
     display: block;
-    width: 25vw;
-}
-
-.foreign {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
-    padding: 0px;
-    margin: 0px;
+    width: 50%;
 }
 
 .extra {
-    margin-left: 40px;
-    margin-top: 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: larger;
+    line-height: 20pt;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.foreign {
+    margin: 0;
+    padding: 0;
 }
 
 .links {
     display: flex;
-    background-color: hsl(0, 0%, 40%);
+    background-color: hsl(0, 0%, 90%);
     height: 50px;
     margin-top: 16px;
 }
