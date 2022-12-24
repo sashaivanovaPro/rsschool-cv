@@ -173,7 +173,7 @@
     margin-left: 0px;
 }
 
-pre {
+.pre {
     margin-top: 25px;
 }
 
@@ -205,7 +205,7 @@ pre {
     background-color: hsl(0, 0%, 90%);
     height: 70px;
     margin: 0;
-    margin-top: 16px;
+    margin-top: 20px;
     padding: 20px;
 }
 
