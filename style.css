@@ -39,7 +39,7 @@
 .figure {
     margin: 0px;
     padding: 0px;
-    height: 250px;
+    height: 240px;
     background-color: hsl(0, 0%, 90%);
     padding-top: 15px;
 }
@@ -51,7 +51,7 @@
 .avatar {
     display: block;
     padding-top: 0px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 80px;
     height: 180px;
     width: auto;
