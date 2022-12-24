@@ -90,8 +90,6 @@
     margin-top: 20px;
 }
 
-
-
 .sub-header {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -132,7 +130,6 @@
     padding-left: 60px;
     margin-left: 100px;
     margin-top: 20px;
-
     width: 60%;
     border-left: 1px solid black;
 }
@@ -147,12 +144,6 @@
     height: 50px;
     padding-top: 15px;
     text-transform: uppercase;
-}
-
-.softskills {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    line-height: 18pt;
 }
 
 .education,
