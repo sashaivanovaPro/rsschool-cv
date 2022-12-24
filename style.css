@@ -61,7 +61,7 @@
 .maininfo {
     display: inline-block;
     position: relative;
-    margin-left: 120px;
+    margin-left: 80px;
 }
 
 .maininfo__name {
@@ -99,9 +99,9 @@
     width: 100%;
     height: 50px;
     padding-top: 15px;
-    padding-left: 40px;
     text-transform: uppercase;
-    border-bottom: 1px solid hsl(0, 0%, 70%);
+    border-bottom: 1px solid hsl(0, 0%, 80%);
+    text-align: center
 }
 
 .aside__style {
@@ -128,10 +128,10 @@
     margin: 0;
     padding: 0;
     padding-left: 60px;
-    margin-left: 100px;
+    margin-left: 60px;
     margin-top: 20px;
     width: 60%;
-    border-left: 1px solid hsl(0, 0%, 70%);
+    border-left: 1px solid hsl(0, 0%, 80%);
 }
 
 .sub-header__right {
@@ -171,6 +171,10 @@
 .it {
     text-transform: uppercase;
     margin-left: 0px;
+}
+
+pre {
+    margin-top: 25px;
 }
 
 .code_sample {
