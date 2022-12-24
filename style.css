@@ -2,16 +2,12 @@
     box-sizing: border-box;
 }
 
-.container {
+.body {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0;
     width: 100vw;
     height: 100vh;
-}
-
-.body {
-    margin: 0;
 }
 
 .header {
@@ -49,11 +45,11 @@
 }
 
 .blocks {
-    display: inline-flex;
+    display: flex;
 }
 
 .avatar {
-    display: inline-block;
+    display: block;
     padding-top: 0px;
     margin-top: 10px;
     margin-left: 50px;
@@ -88,19 +84,13 @@
     margin: 0;
 }
 
-.about-me__intro {
-    margin-left: 40px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: larger;
-    line-height: 18pt;
-}
-
 .aside {
     width: 20%;
     display: block;
     margin-top: 20px;
 }
+
+
 
 .sub-header {
     font-family: 'Montserrat', sans-serif;
@@ -268,7 +258,6 @@
     font-weight: 300;
     font-size: larger;
     color: black;
-    padding-top: 20px;
 }
 
 .logo {
