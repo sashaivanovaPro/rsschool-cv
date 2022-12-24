@@ -39,7 +39,7 @@
 .figure {
     margin: 0px;
     padding: 0px;
-    height: 230px;
+    height: 250px;
     background-color: hsl(0, 0%, 90%);
     padding-top: 15px;
 }
@@ -51,8 +51,8 @@
 .avatar {
     display: block;
     padding-top: 0px;
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-top: 20px;
+    margin-left: 80px;
     height: 180px;
     width: auto;
     border-radius: 90px;
@@ -61,7 +61,8 @@
 .maininfo {
     display: inline-block;
     position: relative;
-    margin-left: 80px;
+    margin-left: 50px;
+    margin-top: 15px;
 }
 
 .maininfo__name {
@@ -88,6 +89,7 @@
     width: 20%;
     display: block;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .sub-header {
@@ -128,7 +130,7 @@
     margin: 0;
     padding: 0;
     padding-left: 60px;
-    margin-left: 60px;
+    margin-left: 40px;
     margin-top: 0;
     width: 60%;
     border-left: 1px solid hsl(0, 0%, 80%);
