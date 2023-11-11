@@ -22,7 +22,7 @@ Since then I have completed JavaScript/Front-end pre-school, training courses at
 - Sass
 - Webpack
 - SDLC and methodologies (agile, scrum, kanban)
-- Adobe Photoshop, Lightroom, Premier Pro
+- Adobe Photoshop, Lightroom, Premier Pro, Figma
 
 ## Soft Skills
 
@@ -67,7 +67,7 @@ const filterSelectedServices = (e, clickedButton) => {
 ## Projects
 
 [Plants](https://sashaivanovapro.github.io/plants/)\
-[Momentum](https://rolling-scopes-school.github.io/sashaivanovapro-JSFEPRESCHOOL2022Q4/momentum/)
+[Momentum](https://rolling-scopes-school.github.io/sashaivanovapro-JSFEPRESCHOOL2022Q4/momentum/)\
 [Shelter](https://rolling-scopes-school.github.io/sashaivanovapro-JSFE2023Q1/shelter/)
 
 
