@@ -49,10 +49,25 @@ Since then I have completed JavaScript/Front-end pre-school, training courses at
 **2013-2020** Freelance photographer.\
 **2006-2022** Anesthesiologist and critical care physician.
 
+## Code example
+
+`const filterSelectedServices = (e, clickedButton) => { 
+  let buttonName = e.target.id;
+
+  // remove class reseting blur from elements without id corresponded to button name
+  services.forEach(grid => {
+  if (!grid.classList.contains(buttonName)){
+      grid.classList.toggle('grid__item--no-blur');
+    }
+  })
+}`
+
 ## Projects
 
 [Plants](https://sashaivanovapro.github.io/plants/)\
 [Momentum](https://rolling-scopes-school.github.io/sashaivanovapro-JSFEPRESCHOOL2022Q4/momentum/)
+[Shelter](https://rolling-scopes-school.github.io/sashaivanovapro-JSFE2023Q1/shelter/)
+
 
 ## Foreign languages
 
