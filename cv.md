@@ -51,7 +51,10 @@ Since then I have completed JavaScript/Front-end pre-school, training courses at
 
 ## Code example
 
-`const filterSelectedServices = (e, clickedButton) => { 
+<pre>
+```javascript
+
+const filterSelectedServices = (e, clickedButton) => { 
   let buttonName = e.target.id;
 
   // remove class reseting blur from elements without id corresponded to button name
@@ -60,7 +63,10 @@ Since then I have completed JavaScript/Front-end pre-school, training courses at
       grid.classList.toggle('grid__item--no-blur');
     }
   })
-}`
+}
+
+```
+</pre>
 
 ## Projects
 
