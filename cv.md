@@ -52,8 +52,6 @@ Since then I have completed JavaScript/Front-end pre-school, training courses at
 ## Code example
 
 <pre>
-```javascript
-
 const filterSelectedServices = (e, clickedButton) => { 
   let buttonName = e.target.id;
 
@@ -64,8 +62,6 @@ const filterSelectedServices = (e, clickedButton) => {
     }
   })
 }
-
-```
 </pre>
 
 ## Projects
