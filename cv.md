@@ -12,7 +12,7 @@
 ## About me
 
 I'm Aleksandra Ivanova, Junior Frontend Developer. I have started my way into programming in November 2022.
-Since then I have completed JavaScript/Front-end pre-school, training courses at Codecademy. I attended the intensive Frontend JS course at ITC Bootcamp in Bishkek. Now I continue to deepen my knowledge through Stage 1 of JavaScript/Front-end course at RS-school. 
+Since then I have completed JavaScript/Front-end pre-school course at RS School, training courses at Codecademy. Later I attended the intensive Frontend JS course at ITC Bootcamp in Bishkek this summer. Now I continue to deepen my knowledge through Stage 1 of JavaScript/Front-end course at RS School.
 
 ## Main Knowledges
 
