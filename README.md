@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://sashaivanovapro.github.io/rsschool-cv/
