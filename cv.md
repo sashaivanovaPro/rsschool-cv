@@ -52,15 +52,14 @@ Since then I have completed JavaScript/Front-end pre-school, training courses at
 ## Code example
 
 <pre>
-const filterSelectedServices = (e, clickedButton) => { 
-  let buttonName = e.target.id;
-
-  // remove class reseting blur from elements without id corresponded to button name
-  services.forEach(grid => {
-  if (!grid.classList.contains(buttonName)){
-      grid.classList.toggle('grid__item--no-blur');
-    }
-  })
+function dataReverse(data) {
+  let newArr =[];
+  const t = data.length/8;
+  for (let i= 0; i< t; i++){
+    a = data.splice(-8);  
+    newArr = newArr.concat(a);    
+  }  
+  return newArr;
 }
 </pre>
 
