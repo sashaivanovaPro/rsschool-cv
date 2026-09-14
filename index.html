@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Aleksandra Ivanova - Frontend Developer CV">
   <meta name="author" content="Aleksandra Ivanova">
   <title>Aleksandra Ivanova - CV</title>
   <link rel="stylesheet" href="./style.css">
-  <link rel="icon" class="favicon" href="./assets/icons/cv.png">
+  <link rel="icon" href="./assets/icons/cv.png">
 </head>
 
 <body class="body">
   <header class="header">
     <div class="container header-container">
-      <img src="./assets/img/Aleksandra_Ivanova.jpg" alt="Aleksandra Ivanova photo" class="avatar">
+      <img class="avatar" src="./assets/img/Aleksandra_Ivanova.jpg" width="1426" height="1426" alt="Aleksandra Ivanova photo">
       <div class="header-info">
         <h1>Aleksandra Ivanova</h1>
         <p class="subtitle">Frontend Developer (React, TypeScript)</p>
@@ -36,7 +36,7 @@
   <main class="container">
     <section id="contacts" class="section">
       <h2>Contacts</h2>
-      <ul class="contacts-list">
+      <ul>
         <li><strong>Location:</strong> Bishkek, Kyrgyzstan</li>
         <li><strong>Phone:</strong> +996 998 78 58 68</li>
         <li><strong>Email:</strong> <a href="mailto:sashaivanova.pro@gmail.com">sashaivanova.pro@gmail.com</a></li>
@@ -46,7 +46,7 @@
             rel="noopener noreferrer">sashaivanovaPro</a></li>
         <li><strong>Telegram:</strong> <a href="https://t.me/sashaivanovaPro" target="_blank"
             rel="noopener noreferrer">@sashaivanovaPro</a> (preferred way of communication)</li>
-        <li><strong>Discord:</strong> <a href="https://discord.com/users/1041586408499970071" target="_blank" 
+        <li><strong>Discord:</strong> <a href="https://discord.com/users/1041586408499970071" target="_blank"
             rel="noopener noreferrer">@sashaivanova</a></li>
       </ul>
     </section>
@@ -60,7 +60,7 @@
 
     <section id="skills" class="section">
       <h2>Skills</h2>
-      <ul class="skills-list">
+      <ul>
         <li><strong>Languages:</strong> TypeScript, JavaScript (ES6+), HTML5, CSS3</li>
         <li><strong>Frontend:</strong> React, MobX, SCSS (Sass)</li>
         <li><strong>Architecture:</strong> MVVM, Atomic Design, layered pipeline (Store &rarr; ViewModel &rarr; Adapter
@@ -94,8 +94,8 @@ export const teachingRoute = (
 
     <section id="experience" class="section">
       <h2>Work Experience</h2>
-      <div class="job">
-        <h3>Frontend Developer &mdash; &laquo;Дети и наука&raquo;, Moscow </h3>
+      <div>
+        <h3>Frontend Developer &mdash; &laquo;Дети и наука&raquo;, Moscow</h3>
         <p class="job-meta">June 2025 &ndash; Present | LMS platform for a private school network</p>
         <p class="job-note">Application built from scratch in a small team. Released on September 1, 2026.</p>
         <ul class="job-duties">
@@ -116,7 +116,7 @@ export const teachingRoute = (
 
     <section id="education" class="section">
       <h2>Education</h2>
-      <ul class="education-list">
+      <ul>
         <li><strong>RS School</strong> &mdash; JavaScript/Front-end, Stage 1 (2026, in progress)</li>
         <li><strong>RS School</strong> &mdash; JavaScript/Front-end, Stage 0 (2023)</li>
         <li><strong>ITC Bootcamp Bishkek</strong> &mdash; Frontend JS intensive course (2023)</li>
@@ -133,7 +133,7 @@ export const teachingRoute = (
 
     <section id="languages" class="section">
       <h2>Languages</h2>
-      <ul class="languages-list">
+      <ul>
         <li><strong>Russian</strong> &mdash; Native</li>
         <li><strong>English</strong> &mdash; B1 (Intermediate); <a href="https://efset.org/cert/wavEMQ" target="_blank"
             rel="noopener noreferrer">EF SET B2 Upper Intermediate</a></li>
@@ -144,14 +144,14 @@ export const teachingRoute = (
 
   <footer class="footer">
     <div class="container footer-container">
-      <h3 class="footer__links--copyright">&#169; 2026</h3>
-      <div class="footer__links--wrapper">
-        <img class="git" src="./assets/icons/GitHub.png" alt="GitHub profile link">
-        <a class="footer__links--git" href="https://github.com/sashaivanovaPro" target="_blank"
+      <h3>&#169; 2026</h3>
+      <div class="footer-links">
+        <img class="git" src="./assets/icons/GitHub.png" width="512" height="512" alt="GitHub profile link">
+        <a href="https://github.com/sashaivanovaPro" target="_blank"
           rel="noopener noreferrer">sashaivanovaPro</a>
       </div>
-      <a href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer" class="rs-logo-link">
-        <img src="./assets/icons/rs-school-logo.svg" alt="RS School Logo" class="rs-logo">
+      <a class="rs-logo-link" href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer">
+        <img class="rs-logo" src="./assets/icons/rs-school-logo.svg" width="553" height="205" alt="RS School logo">
       </a>
     </div>
   </footer>
