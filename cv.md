@@ -26,7 +26,7 @@ Former physician (10 years in anesthesiology, critical care and nephrology). I a
 - Frontend: React, MobX, SCSS (Sass)
 - Architecture: MVVM, Atomic Design, layered pipeline (Store → ViewModel → Adapter → Presenter)
 - Tooling: Git, Vite, Webpack, npm, ESLint, Vitest
-- Workflow: REST API, Jira, Confluence, Figma, code review, ADR
+- Workflow: Agile/Scrum (sprints, burndown), Kaiten, Jira, Confluence, Figma, code review, ADR, Conventional Commits
 
 ## Code example
 
@@ -66,6 +66,8 @@ _Application built from scratch in a small team. Released on September 1, 2026._
 - Data orchestration boundaries for asynchronous loading between independent modules.
 - Integration with an evolving backend: working against API contracts that are still changing, and keeping the frontend in sync with the source-of-truth documents.
 - Responsive foundation: shared breakpoints and container primitives instead of scattered media queries.
+- Unit and UI tests with Vitest (node and jsdom environments).
+- Cross-team work: writing and maintaining ADRs and source-of-truth docs, agree API contracts with backend and PM before implementation; every change goes through code review.
 
 **Stack:** TypeScript, React, MobX, SCSS, Vite, Vitest.
 
