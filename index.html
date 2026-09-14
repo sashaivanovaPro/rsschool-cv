@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aleksandra Ivanova - Frontend Developer CV">
+  <meta name="author" content="Aleksandra Ivanova">
+  <title>Aleksandra Ivanova - CV</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="./assets/icons/cv.png">
+</head>
+
+<body class="body">
+  <header class="header">
+    <div class="container header-container">
+      <img class="avatar" src="./assets/img/Aleksandra_Ivanova.jpg" width="1426" height="1426" alt="Aleksandra Ivanova photo">
+      <div class="header-info">
+        <h1>Aleksandra Ivanova</h1>
+        <p class="subtitle">Frontend Developer (React, TypeScript)</p>
+      </div>
+      <nav class="nav">
+        <ul>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#code">Code Example</a></li>
+          <li><a href="#experience">Work Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="contacts" class="section">
+      <h2>Contacts</h2>
+      <ul>
+        <li><strong>Location:</strong> Bishkek, Kyrgyzstan</li>
+        <li><strong>Phone:</strong> +996 998 78 58 68</li>
+        <li><strong>Email:</strong> <a href="mailto:sashaivanova.pro@gmail.com">sashaivanova.pro@gmail.com</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/sashaivanovaPro" target="_blank"
+            rel="noopener noreferrer">sashaivanovaPro</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sashaivanovaPro" target="_blank"
+            rel="noopener noreferrer">sashaivanovaPro</a></li>
+        <li><strong>Telegram:</strong> <a href="https://t.me/sashaivanovaPro" target="_blank"
+            rel="noopener noreferrer">@sashaivanovaPro</a> (preferred way of communication)</li>
+        <li><strong>Discord:</strong> <a href="https://discord.com/users/1041586408499970071" target="_blank"
+            rel="noopener noreferrer">@sashaivanova</a></li>
+      </ul>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About me</h2>
+      <p>Frontend developer. I am currently building an LMS platform for a private school network from scratch &mdash; a multi-role system with lesson scheduling, homework workflows and tools for teachers and managers. I care about scalable architecture and maintainable code: a layered component pipeline, reactive state and clear boundaries between modules.</p>
+      <p>My goal is to grow into frontend architecture &mdash; designing patterns that help a team grow without slowing down.</p>
+      <p>Before IT, I worked as a physician for 10 years (anesthesiology, critical care and nephrology). I am interested in medtech &mdash; products where the domain itself is the hard part.</p>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> TypeScript, JavaScript (ES6+), HTML5, CSS3</li>
+        <li><strong>Frontend:</strong> React, MobX, SCSS (Sass)</li>
+        <li><strong>Architecture:</strong> MVVM, Atomic Design, layered pipeline (Store &rarr; ViewModel &rarr; Adapter
+          &rarr; Presenter)</li>
+        <li><strong>Tooling:</strong> Git, Vite, Webpack, npm, ESLint, Vitest</li>
+        <li><strong>Workflow:</strong> REST API, Agile/Scrum (sprints, burndown), Jira, Kaiten, Confluence, Figma, code review, ADR, Conventional Commits</li>
+      </ul>
+    </section>
+
+    <section id="code" class="section">
+      <h2>Code Example</h2>
+      <pre><code>type RouteParam = string | number | undefined;
+
+export const curriculumRoute = (
+  curriculumId: RouteParam,
+  courseId: RouteParam,
+): string =&gt; `/teaching/curriculum/${curriculumId}?groupCourseId=${courseId}`;
+
+export const planningRoute = (
+  curriculumId: RouteParam,
+  courseId: RouteParam,
+): string =&gt;
+  `/teaching/curriculum-schedule/${curriculumId}?groupCourseId=${courseId}`;
+
+export const teachingRoute = (
+  curriculumId: RouteParam,
+  courseId: RouteParam,
+): string =&gt;
+  `/teaching/production-unit/${curriculumId}?groupCourseId=${courseId}`;</code></pre>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Work Experience</h2>
+      <div>
+        <h3>Frontend Developer &mdash; &laquo;Дети и наука&raquo;, Moscow</h3>
+        <p class="job-meta">June 2025 &ndash; Present | LMS platform for a private school network</p>
+        <p class="job-note">Application built from scratch in a small team. Released on September 1, 2026.</p>
+        <ul class="job-duties">
+          <li><strong>Architecture:</strong> Implemented features across the whole layer stack (Store &rarr; ViewModel &rarr; Adapter &rarr; Presenter; MVVM, Atomic Design) with reactive state on MobX.</li>
+          <li><strong>Access control:</strong> Built a multi-role system (teacher, student, parent) where data loading depends on the role.</li>
+          <li><strong>Stability:</strong> Fixed race conditions in view-model rebuilds that were losing user input during concurrent updates.</li>
+          <li><strong>Migration:</strong> Gradually migrated the app away from legacy DTOs without pausing feature delivery.</li>
+          <li><strong>Data loading:</strong> Defined how independent modules load data asynchronously, so they do not depend on each other.</li>
+          <li><strong>Backend integration:</strong> Worked with a backend that was still changing &mdash; followed the API contracts and kept the frontend in sync with the source-of-truth documents.</li>
+          <li><strong>Responsive layout:</strong> Set up shared breakpoints and container primitives instead of scattered media queries.</li>
+          <li><strong>Testing:</strong> Wrote unit and UI tests with Vitest (node and jsdom environments).</li>
+          <li><strong>Refactoring:</strong> Delivered long refactorings as chains of atomic commits (preparation &rarr; contracts &rarr; logic &rarr; UI &rarr; integration).</li>
+          <li><strong>Process:</strong> Wrote and maintained ADRs and source-of-truth docs; agreed on API contracts with backend and PM before implementation; every change went through code review.</li>
+        </ul>
+        <p><strong>Stack:</strong> TypeScript, React, MobX, SCSS, Vite, Vitest.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>RS School</strong> &mdash; JavaScript/Front-end, Stage 1 (2026, in progress)</li>
+        <li><strong>RS School</strong> &mdash; JavaScript/Front-end, Stage 0 (2023)</li>
+        <li><strong>ITC Bootcamp Bishkek</strong> &mdash; Frontend JS intensive course (2023)</li>
+        <li><strong>Microsoft Learn</strong> &mdash; &laquo;Build JavaScript applications using TypeScript&raquo;, &laquo;Introduction to
+          version control with Git&raquo; (2024)</li>
+        <li><strong>Samara State Medical University</strong> &mdash; General Medicine, MD (2005)
+          <ul>
+            <li>Postgraduate certificate: Anesthesiology and Critical Care Medicine (about 8 years of practice)</li>
+            <li>Postgraduate certificate: Nephrology, hemodialysis (2021&ndash;2022)</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="languages" class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li><strong>Russian</strong> &mdash; Native</li>
+        <li><strong>English</strong> &mdash; B1 (Intermediate); <a href="https://efset.org/cert/wavEMQ" target="_blank"
+            rel="noopener noreferrer">EF SET B2 Upper Intermediate</a></li>
+        <li><strong>French</strong> &mdash; B1 (DELF B1, 2014)</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <h3>&#169; 2026</h3>
+      <div class="footer-links">
+        <img class="git" src="./assets/icons/GitHub.png" width="512" height="512" alt="GitHub profile link">
+        <a href="https://github.com/sashaivanovaPro" target="_blank"
+          rel="noopener noreferrer">sashaivanovaPro</a>
+      </div>
+      <a class="rs-logo-link" href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer">
+        <img class="rs-logo" src="./assets/icons/rs-school-logo.svg" width="553" height="205" alt="RS School logo">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>

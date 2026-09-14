@@ -1,0 +1,296 @@
+/* Fonts */
+@font-face {
+  src: url("./assets/fonts/SourceSans3-VF.woff2") format("woff2");
+  font-family: "Source Sans 3";
+  font-weight: 200 900;
+  font-display: swap;
+}
+
+@font-face {
+  src: url("./assets/fonts/Manrope-VF.woff2") format("woff2");
+  font-family: "Manrope";
+  font-weight: 200 800;
+  font-display: swap;
+}
+
+/* Base settings */
+html {
+  box-sizing: border-box;
+  font-family: "Source Sans 3", Verdana, sans-serif;
+  font-size: 62.5%;
+  font-weight: 350;
+  color: #000000;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+p,
+li {
+  font-size: 1.8rem;
+  line-height: 3rem;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: underline;
+  text-decoration-color: #b8bcc4;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.3rem;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration-color: #000000;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3rem;
+}
+
+/* Header styles */
+.header {
+  padding: 1.6rem 0;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.header-info {
+  flex: 1 1 auto;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.nav {
+  flex: 0 1 auto;
+}
+
+.nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.6rem 2rem;
+}
+
+.nav a {
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.4rem;
+}
+
+.avatar {
+  flex-shrink: 0;
+  width: 9rem;
+  height: 9rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* Main sections */
+main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.section {
+  margin-top: 4rem;
+}
+
+h1 {
+  font-family: "Manrope", sans-serif;
+  font-size: 2.6rem;
+  line-height: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  font-family: "Manrope", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: -0.05rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e1e4e8;
+}
+
+h3 {
+  margin-bottom: 0.5rem;
+  font-family: "Manrope", sans-serif;
+  font-size: 2rem;
+  line-height: 2.8rem;
+  font-weight: 600;
+}
+
+.job-meta {
+  font-weight: 500;
+}
+
+.job-note {
+  margin-bottom: 1.5rem;
+  font-style: italic;
+}
+
+.job-duties {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.job-duties li {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.job-duties li::before {
+  content: "";
+  position: absolute;
+  top: 1.2rem;
+  left: 0.4rem;
+  width: 0.6rem;
+  height: 0.6rem;
+  background-color: #000000;
+  border-radius: 50%;
+}
+
+/* Code block */
+pre {
+  padding: 1.6rem;
+  overflow-x: auto;
+  font-family: "SFMono-Regular", Consolas, monospace;
+  font-size: 1.4rem;
+  background-color: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+}
+
+/* Footer styles */
+.footer {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  border-top: 1px solid #e1e4e8;
+}
+
+.footer h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.git {
+  display: block;
+  width: auto;
+  height: 2.5rem;
+}
+
+.rs-logo-link {
+  display: flex;
+  text-decoration: none;
+}
+
+.rs-logo {
+  display: block;
+  width: auto;
+  height: 3.2rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 1024px) {
+  .header-container {
+    flex-wrap: wrap;
+  }
+
+  .nav {
+    flex-basis: 100%;
+  }
+
+  .nav ul {
+    justify-content: flex-start;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    white-space: normal;
+  }
+
+  .avatar {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  p,
+  li {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
