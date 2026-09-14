@@ -72,26 +72,24 @@
 
     <section id="code" class="section">
       <h2>Code Example</h2>
-      <pre><code>
-        type RouteParam = string | number | undefined;
-        
-        export const curriculumRoute = (
-        curriculumId: RouteParam,
-        courseId: RouteParam,
-        ): string => `/teaching/curriculum/${curriculumId}?groupCourseId=${courseId}`;
-        
-        export const planningRoute = (
-        curriculumId: RouteParam,
-        courseId: RouteParam,
-        ): string =>
-        `/teaching/curriculum-schedule/${curriculumId}?groupCourseId=${courseId}`;
-        
-        export const teachingRoute = (
-        curriculumId: RouteParam,
-        courseId: RouteParam,
-        ): string =>
-        `/teaching/production-unit/${curriculumId}?groupCourseId=${courseId}`;
-      </code></pre>
+      <pre><code>type RouteParam = string | number | undefined;
+
+export const curriculumRoute = (
+  curriculumId: RouteParam,
+  courseId: RouteParam,
+): string =&gt; `/teaching/curriculum/${curriculumId}?groupCourseId=${courseId}`;
+
+export const planningRoute = (
+  curriculumId: RouteParam,
+  courseId: RouteParam,
+): string =&gt;
+  `/teaching/curriculum-schedule/${curriculumId}?groupCourseId=${courseId}`;
+
+export const teachingRoute = (
+  curriculumId: RouteParam,
+  courseId: RouteParam,
+): string =&gt;
+  `/teaching/production-unit/${curriculumId}?groupCourseId=${courseId}`;</code></pre>
     </section>
 
     <section id="experience" class="section">
